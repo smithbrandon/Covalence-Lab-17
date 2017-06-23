@@ -1,0 +1,192 @@
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;    
+}
+body{
+    background-color: brown;
+}
+#chirperBox{
+    padding: 50px 25px 5px;
+}
+#container{
+    width: 500px;
+    margin: 50px auto;
+    background-color: white;
+}
+.chirpbox{
+    border-top: solid 1px lightgray;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.fa-long-arrow-left{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+}
+#chirp-btn img {
+    position: absolute;
+    top: -7px;
+    right: -10px;
+    height: 50px;
+    width: 50px;
+
+}
+.fa-ellipsis-v{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+}
+.fa-bell-o{
+    color: red;
+}
+
+.fa-search{
+    position: absolute;
+    top: 15px;
+    right: 85px;
+    color: white;
+}
+.psuedo-btn{
+    width: 65px;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 15%;
+    float: right;
+}
+#A{
+    position: relative;
+    background-color: lightskyblue;
+    border: 2px solid lightskyblue;
+}
+#followers h3{
+    display: inline-block;
+    width: 45%;
+
+}
+#B{
+    background-color: transparent;
+    border: 2px solid red;
+}
+h5{
+    float: right;
+    color: red;
+}
+h3,h4{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+}
+.fa-check{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    z-index: 10;
+}
+.editBar{
+    display: inline-block;
+    width: 30%;
+}
+.editBtn{
+    display: inline-block;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+.fa-pencil, .fa-trash{
+    color: white;
+    padding: 5px 20px;
+}
+.fa-pencil{
+    background-color: skyblue;
+}
+.fa-trash{
+    background-color: darkred;
+}
+.btnBar{
+    display: inline-block;
+    padding-right: 20px;
+    width: 60%;
+    text-align: right;
+}
+.comment, .like,.share{
+    width: 25%;
+    display: inline-block;
+}
+.fa-share-square-o, .fa-heart-o, .fa-comment-o{
+    margin-right: 10px;
+}
+
+p{
+    margin-left: 70px;
+}
+.chirpedImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.chirpbox h4{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.time   {
+    float: right;   
+}
+h4,h2{
+    margin: 0;
+}
+textarea{
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 80px;
+    margin: 25px auto;
+    resize: none;
+    font-size: 16pt;
+}
+.chirpContain{
+    position: relative;
+}
+.chirpImg{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-image: url('bg-img.jpg');
+    background-size: contain;
+}
+.chirpImg img{
+    height: 100px;
+    width: 100px;
+    border: 4px white solid;
+    border-radius: 15%;
+    background-color: grey;
+    position: absolute;
+    bottom: -50px;
+    left: 25px;
+}
+#chirp-btn{
+    font-size: 16pt;
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    margin: 25px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#word-cnt{
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    right: 30px;
+    bottom: 0px;
+    width: 100px;
+    height: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" href="/style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+            <meta lang="en" charset="utf8">
+        <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="chirpImg">
+                <a href="/chirps"><i class="fa fa-long-arrow-left fa-2x" aria-hidden="true"></i></a>
+                <i class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                <img src="/profile.jpg">
+            </div>
+            <div id='chirperBox'>
+                <button id='A' class="psuedo-btn">
+                    <span class="fa-stack fa-xlg">
+                        <i class="fa fa-users fa-stack-2x"></i>
+                        <i class="fa fa-check fa-stack-1x"></i>
+                    </span> 
+                </button>
+                <button id='B' class="psuedo-btn"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></button>
+                <br>
+                <div style="clear:both"></div>
+                <h5>Sign up for Chirper Alerts!</h5>
+                <!--<h2>Ross Mckewen</h2>-->
+                <select id='users'></select>
+                <h4>@Rosslanding</h4>
+                <div class="chirpContain">
+
+                    <textarea id='chirp' placeholder="Type your new chirp here." maxlength="120"></textarea>
+                    <div id="word-cnt"><span>0</span>/120</div>
+                </div>
+                <button type="button" id="chirp-btn" disabled>Chirp!<img src="/cute-little-bird-icon-85416.png"></button>
+                <div class="clear: both;"></div>
+                <div id="followers">
+                    <h3>Following: <span>4,564</span></h3>
+                    <h3>Follwers: <span>5,342,902</span></h3>
+                </div>
+            </div>
+            <div id="chirpList">
+            
+            </div>
+        </div>
+        <script src="/single_view.js"></script>
+    </body>
+</html>
